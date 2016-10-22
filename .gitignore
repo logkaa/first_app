@@ -8,6 +8,18 @@
 /.bundle
 
 # Ignore all logfiles and tempfiles.
-/log/*
 !/log/.keep
+
+# Игнорирование всех логов и временных файлов.
+/log/*.log
 /tmp
+
+# Игнорирование прочих ненужных файлов.
+database.yml
+doc/
+*.swp
+*~
+.project
+.DS_Store
+.idea
+.secret
